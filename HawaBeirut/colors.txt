@@ -1,0 +1,55 @@
+Primary Black: #000000 — Used for main headings, navigation text.
+
+Pure White: #FFFFFF — Background, section contrasts, and text on dark elements.
+
+Light Gray: #F5F5F5 — Section backgrounds and subtle separations.
+
+Medium Gray: #8A8A8A — Subheadings, meta-text, and minor labels.
+
+Accent Red-Orange: #D23F2A — Buttons, call-to-action highlights, and interactive elements.
+
+Muted Beige/Tan: #EFE6DD — Background for certain text overlays and sections.
+
+
+
+Element	Font-Family	Weight	Letter-Spacing	Line-Height
+Headings (H1–H3)	Helvetica Neue, Helvetica, Arial, sans-serif	700	0.04em	~1.1
+Body text	Helvetica Neue, Helvetica, Arial, sans-serif	300–400	0em – 0.01em	~1.5–1.65
+
+:root {
+    --base-font-size: 16px;
+    --heading-font-font-family: "aktiv-grotesk";
+    --heading-font-font-style: normal;
+    --heading-font-font-weight: 700;
+    --heading-font-text-transform: uppercase;
+    --heading-font-letter-spacing: 0em;
+    --heading-font-line-height: 1.4em;
+    --body-font-font-family: "aktiv-grotesk";
+    --body-font-font-style: normal;
+    --body-font-font-weight: 400;
+    --body-font-text-transform: none;
+    --body-font-letter-spacing: 0em;
+    --body-font-line-height: 1.8em;
+    --meta-font-font-family: "aktiv-grotesk";
+    --meta-font-font-style: normal;
+    --meta-font-font-weight: 400;
+    --meta-font-text-transform: none;
+    --meta-font-letter-spacing: 0em;
+    --meta-font-line-height: 1.2em;
+    --heading-1-size: 4rem;
+    --heading-1-size-value: 4;
+    --heading-2-size: 2.8rem;
+    --heading-2-size-value: 2.8;
+    --heading-3-size: 2.2rem;
+    --heading-3-size-value: 2.2;
+    --heading-4-size: 1.2rem;
+    --heading-4-size-value: 1.2;
+    --large-text-size: 1.5rem;
+    --large-text-size-value: 1.5;
+    --normal-text-size: 1rem;
+    --normal-text-size-value: 1;
+    --small-text-size: .9rem;
+    --small-text-size-value: .9;
+    --normal-meta-size: 1rem;
+    --normal-meta-size-value: 1;
+    }
